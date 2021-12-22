@@ -1,0 +1,206 @@
+*{
+    
+    
+}
+.header{
+    background-image: url("img/korean-bibimbap-flatlay-picjumbo-com.jpg");
+    background-attachment: fixed;
+    background-position: "center top";
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 400px;
+    bottom: 30;
+    z-index: 2;
+
+}
+.article-img{
+    width: 100%;
+    height: auto;
+    margin: 100%;
+}
+.header-nav a{
+    position: relative;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 30px;
+    bottom:110px;
+    z-index: 4;
+    border-radius: 4px;
+    left: 50px;
+}
+.header-nav a:hover{
+    background-color: brown;
+    background-attachment: fixed;
+    
+}
+.header-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 86px;
+    padding-bottom: -1px;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+    opacity: 0.8;
+    
+}
+.header-h1{
+    text-align: left;
+    color: ivory;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 59px;
+    margin-top: 0;
+    z-index: 4;
+    position: relative;
+}
+.header-div{
+    position: relative;
+    bottom: 99px;
+    text-align: right;
+}
+.article{
+    padding-top: 250px;
+    position: relative;
+    z-index: 1;
+}
+.article-img{
+    opacity: 0.5;
+}
+.img2{
+    background-color: black;
+    text-align: center;
+}
+.img2:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.img3{
+    text-align: center;
+    position: relative;
+    right: 300px;
+    top: 100px;
+}
+.img4{
+    text-align: center;
+    position: relative;
+    left: 300px;
+    bottom: 125px;
+}
+.img5{
+    text-align: center;
+}
+.img6{
+    text-align: center;
+    padding-top: 80px;
+}
+.article p{
+    text-align: justify;
+  
+}
+.h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 50px;
+}
+.h3-div{
+    text-align: center;
+}
+.aside{
+    position: relative;
+    text-align:center;
+    bottom: 300px;
+    left: 200px;
+}
+.P-img{
+    text-align: justify;
+    line-height: 2;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+ 
+}
+.titre_div{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+.titre_div_p{
+    text-align: center; 
+    position: relative;
+    top: 30px;
+    left: 200px;
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titre_div_p2{
+    text-align: left;
+    background-image: url("img/chuttersnap-X9I5r3pdrGk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    position: relative;
+    bottom: 17px;
+}
+.p2{
+    line-height: 40px;
+    background-color: black;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    padding-top: 170px;
+    font-size: 17px;
+    padding-left: 20px;
+
+}
+.titre_evenement{
+    color: white;
+    background-color: brown;
+    position: relative;
+    bottom: 100px;
+    left: 180px;
+    padding: 20px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    border-radius: 3px;
+    
+}
+.div{
+    background-image: url("img/life-style.jpg");
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    color: honeydew;
+    opacity: 0.7;
+    background-attachment: fixed;   
+    
+}
+.img7{
+    position: relative;
+    text-align: right;
+    bottom: 60px;
+    right: 230px;
+    animation-duration: 2s;
+
+}
+
+body{
+    margin:0;
+}
+@keyframes roule {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}

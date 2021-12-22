@@ -1,0 +1,10 @@
+.article-plats{
+    display: inline-table;
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+.article-plats p{
+    text-align: center;
+   
+}

@@ -1,0 +1,153 @@
+.header-ins{
+    background-color:black;
+    padding: 20px 10px 25px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    opacity: 0.8;
+    height: 49px;
+}
+.header-ins-nav a{
+    position: relative;
+    padding: 20px;
+    margin: 30px;
+    bottom: 65px;
+    right:15px;
+    font-size: 18px;
+    color: inherit;
+    text-decoration: none;
+   
+}
+.header-ins-nav a:hover{
+    background-color: brown;
+    border-radius: 4px;
+}
+.header-h2{
+    text-align: left;
+    color: ivory;
+    position: relative;
+    bottom: 21px;
+    right: 460px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 58px;
+    margin-top: 0;
+    margin: 0;
+}
+.header-h2 a:hover{
+    transform: scale(0.9);  
+}
+.header-ins a{
+    color: inherit;
+    text-decoration: none;
+}
+.sub2 input{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    left: 90%;
+    bottom: 90px;
+    font-size: 19px;
+    color:brown;
+    background-color: white;
+    border:1px solid brown;
+    transition: all 0.5s ease;
+}
+.sub2 input[type=submit]:hover{
+    color: white;
+    background-color: brown;
+    border-radius: 150px;
+}
+
+.article-ins {
+    border-radius: 15px;
+    text-align: center;
+    margin: 400px;
+    margin-top: 700px;
+    position: relative;
+    bottom: 400px;
+    padding-top: 0px;
+   
+    
+}
+.form input{
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 180px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 4px;
+}
+.form{
+    text-align: center;
+    align-items: center;
+}
+.form input[type=submit]{
+    padding-left: 30px;
+    padding-right: 30px;
+    color:brown;
+    background-color: white;
+    font-size: 20px;
+    border:1px solid brown;
+    transition: all 0.5s ease;
+}
+.form input[type=submit]:hover{
+    color: white;
+    background-color: brown;
+    border-radius: 150px;
+}
+.form input[type=date]{
+    padding-right: 37px;
+    display: block;
+}
+.form input[type=time]{
+    padding-right: 84px;
+    text-align: center;
+    -moz-text-align: center;
+    -webkit-padding-start: 37px;
+    
+}
+.inscrire{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.sub{
+    position: relative;
+    left: 25px;
+    margin-bottom: 10px;
+}
+.sub3 input{
+    padding-left: 30px;
+    padding-right: 30px;
+    color:brown;
+    background-color: white;
+    font-size: 20px;
+    border:1px solid brown;
+    transition: all 0.5s ease;
+}
+.sub3 input[type=submit]:hover{
+    color: white;
+    background-color: brown;
+    border-radius: 150px;
+}
+.fild{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 1000;
+    
+}
+.div-p{
+    font-size: 25px;
+}
+body{
+    background-image: url("img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

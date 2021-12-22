@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}   
+.menu-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 90px;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+    opacity: 0.8;
+}
+.menu-nav a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    
+}
+.nav-a1 a:hover{
+    background-color: brown;
+    border-radius: 4px;
+}
+.nav-a{
+    position: relative;
+}
+.nav-a1{
+    position: relative;
+    bottom: 82px;
+    left: 9px;
+    font-size: 17px;
+    
+}
+.nav-a2{
+    position: relative;
+    
+}
+.menu-h1:hover{
+    transform: scale(0.9);
+    transition: transform .5s;
+}
+.menu-h1 a{
+    position: relative;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 59px;
+    right: 460px;
+    bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.menu-span{
+    position: relative;
+    bottom:0px;
+}
+.menu-div{
+    padding-top: 180px;
+    animation: slideDown 5s;
+}
+.menu-img{
+    position: relative;
+    text-align: center;
+}
+.menu-img2{
+    position: relative;
+    text-align: center;
+    left: 150px;
+    bottom: 120px;
+    animation: slideDown 10s;
+}
+.menu-img3{
+    position: relative;
+    text-align: center;
+}
+.menu-img4{
+    position: relative;
+    text-align: right;
+    top: 5px;
+}
+.menu-img5{
+    position: relative;
+    bottom: 40px;
+}
+.menu-img6{
+    position: relative;
+    left: 200px;
+    text-align: center;
+     bottom: 290px;
+
+}
+.menu-img8{
+    position: relative;
+    left: 20px;
+    top: 60px;
+
+}
+.menu-img8:hover{
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+.menu-img9{
+    text-align: right;
+    position: relative;
+    bottom: 90px;
+    padding: 0px;
+    margin: 20px;
+}
+.menu-img10{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+.menu-img11{
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+}
+.menu-img12{
+    background-color: white;
+    border-radius: 10px;
+}
+.menu-img13{
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    left: 80px;
+}
+.menu-img14{
+    position: relative;
+    bottom: 220px;
+    left: 750px;
+}
+.menu-img15{
+    position: relative;
+    top: 32px;
+    display: inline-flex;
+    border-radius: 10px;
+    transition: transform .5s;
+    animation : slide infinite 20s;
+    justify-content: space-between;
+}
+.menu-article{
+    padding-bottom: 5px;
+    margin-bottom: 90px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+    top: 50px;
+    color:white;
+    line-height: 2;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-p2{
+    position: relative;
+    top: 500px;
+}
+.menu-h2{
+    position: relative; 
+}
+.menu-bas{
+    background-color: rgb(14, 11, 11);
+    padding: 10px;
+    position: relative;
+}
+.menu-bas-a{
+    position: relative;
+    top: 70px; 
+}
+.menu-bas a{
+    color:brown;
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 29px;
+}
+.div-hr{
+    color: blanchedalmond;
+    position: relative;
+    top: 70px; 
+
+}
+.div-hr2{
+    position: relative;
+    bottom: 100px;
+}
+@keyframes slideDown {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(-300px);
+    }
+    20%{
+        transform: translateX(-600px);
+    }
+    30%{
+        transform: translateX(-900px);
+    }
+    40%{
+        transform: translateX(-1200px);
+    }
+    50%{
+        transform: translateX(-1500px);
+    }
+    60%{
+        transform: translateX(-1800px);
+    }
+    70%{
+        transform: translateX(-2100px);
+    }
+    80%{
+        transform: translateX(-2400px);
+    }
+    90%{
+        transform: translateX(-2700px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+body{
+    margin: 0;
+}
